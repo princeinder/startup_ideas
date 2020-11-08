@@ -1,4 +1,4 @@
-# Real Time Chat App
+# Startup Ideas
 
 ## Server
 

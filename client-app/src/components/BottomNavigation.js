@@ -5,7 +5,7 @@ const BottomNavigation = () => {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/">Project Ideas</Navbar.Brand>
+        <Navbar.Brand href="/">Startup Ideas</Navbar.Brand>
       </Navbar>
     </>
   );

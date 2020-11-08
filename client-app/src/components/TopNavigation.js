@@ -15,7 +15,7 @@ const TopNavigation = () => {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/">Project Ideas</Navbar.Brand>
+        <Navbar.Brand href="/">Startup Ideas</Navbar.Brand>
         <Nav className="mr-auto"></Nav>
 
         <Form inline>
