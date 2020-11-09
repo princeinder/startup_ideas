@@ -140,7 +140,7 @@ const superlikeProject = (req, res) => {
 const favouriteProject = (req, res) => {
   const { projectId, favourite } = req.body;
   if (favourite == "add") action = { $push: { favourites: req.user._id } };
-  if (favourite == "remove") action = { $pull: { favourite: req.user._id } };
+  if (favourite == "remove") action = { $pull: { favourites: req.user._id } };
   project
     .findByIdAndUpdate(projectId, action, {
       new: true,

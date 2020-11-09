@@ -22,22 +22,16 @@ const AddProject = ({
           display: "flex",
         }}
       >
-        {!userData.user ? (
+        {userData.user && (
           <>
             <Button
               variant="primary"
               className="text-right"
-              onClick={() => history.push("/signin")}
+              onClick={() => setShow(true)}
             >
               Add Project
             </Button>
           </>
-        ) : (
-          <Form.Check
-            onClick={() => setFavourite((option) => !option)}
-            type="checkbox"
-            label="Favorites"
-          />
         )}
       </div>
       <Modal show={show} onHide={() => setShow(false)}>
